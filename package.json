@@ -1,0 +1,19 @@
+{
+  "name": "greenova8-investor-landing",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "content:audit": "node scripts/content-audit.mjs",
+    "qa": "node scripts/qa.mjs && npm run content:audit"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "three": "^0.180.0"
+  }
+}
